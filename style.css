@@ -44,9 +44,58 @@
     font-size:40px;
     padding:6px 13px;
     font-family:"Yuyu",cursive;
+     transition:.5s;
 }
 .navbar ul li a.active,
 .navbar ul li a:hover{
     background: red;
     border-radius: 2px;
+}
+.container .center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family:sans-serif ;
+    user-select: none;
+}
+
+.center h1{
+    color:black;
+
+    font-size:80px;
+    font-weight:bold;
+    width:900px;
+    text-align:center;
+
+}
+.center h2{
+    color:rgb(18, 1, 1);
+    font-size:60px;
+    font-weight:bold;
+    width:885px;
+    margin-top:10px;
+    text-align:center;
+
+
+}
+.center .buttons{
+    margin:35px 280px;;
+
+}
+.buttons button{
+    height:50px;
+    width:150px;
+    font-size:18px;
+    font-weight:bold;
+    color:blueviolet;
+    background-color: palevioletred;
+    border:solid 1px red;
+    cursor:pointer;
+    outline:none;
+    border-radius:25px;
+    transition:.5s;
+}
+.buttons button:hover{
+background:#fff ;
 }
